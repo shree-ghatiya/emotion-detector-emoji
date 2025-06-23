@@ -1,20 +1,30 @@
 # 😊 Emotion Detector with Emojis
 
-A mini ML project that detects user emotions from text and returns a matching emoji.
+A simple ML mini-project that detects emotions from text input and returns a matching emoji. Built using Google Colab and basic Python libraries.
 
-## 🛠️ Tech Used
-- Python
-- scikit-learn
-- pandas
-- Google Colab
 
-## 🚀 Run Steps
-1. Open `emotion_model.ipynb` in Google Colab
-2. Run all cells
-3. Input a sentence → get emotion + emoji!
+## 📌 Detected Emotions
+- Happy 😊
+- Sad 😢
+- Neutral 😐
+
+
+## 🛠️ Libraries Used
+- textblob
+- os (built-in)
+- zipfile (built-in)
+- random (built-in)
+- IPython.display (for showing emojis or images)
+
+
+## 🚀 How to Run
+1. Open the `emotion_model.ipynb` file in **Google Colab**
+2. Run all the cells one by one
+3. Enter your sentence or text input
+4. The model will output the **emotion** and **matching emoji**
 
 ## 💡 Example
-**Input**: "I'm feeling great!"  
-**Output**: Happy 😊
-
+**Input**: "I'm feeling awesome today!"  
+**Detected Emotion**: Happy  
+**Emoji**: 😊
 
